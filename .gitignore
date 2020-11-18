@@ -172,3 +172,5 @@ credentials
 credentials.txt
 credentials.json
 
+# saved_models
+saved_models
