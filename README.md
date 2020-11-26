@@ -1,8 +1,8 @@
 # simpsons_cnn
 
-This is a quick project to look at transfer learning to trian a model to classify pictures of Simpsons characters.
+This is a quick project to explore computer vision using a dataset of Simpsons characters.
 
-I took two apporaches:
-1) Using keras and tensorflow to add a classifer to the top of pretained resenet50 (~70% accuracy w/o fine tuning)
-2) Using fast.ai to add a classifier to the top of pretrained resent model (~90% accuracy in one cycle)
+## Simple Classifier
+First experiment is a simple classifier of images where only one character is present. I built a custom dataset where each character class contains 700 images. I utilised the kaggle dataset (linked above) and over / under sampled where aprropriate. 
 
+The results from this can be found in simple_classification/classifier.ipynb
