@@ -1,4 +1,4 @@
-# simpsons_cnn
+# simpsons_cv
 
 This is a quick project to explore computer vision using a [dataset of Simpsons characters.](https://www.kaggle.com/alexattia/the-simpsons-characters-dataset)
 
